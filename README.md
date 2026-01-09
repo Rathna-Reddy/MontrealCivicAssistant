@@ -1,6 +1,6 @@
 # Montreal Civic Assistant 🇨🇦🤖
 
-An AI-powered iOS app that answers Montreal city service questions in **plain English** using **LLMs, Retrieval-Augmented Generation (RAG), and real-time open data**.
+An AI-powered UI/iOS app that answers Montreal city service questions in **plain English** using **LLMs, Retrieval-Augmented Generation (RAG), and real-time open data**.
 
 ---
 
@@ -21,7 +21,7 @@ Instead of searching through PDFs, French-only pages, or outdated forums, users 
 ## 🧠 Tech Stack
 
 ### Frontend
-
+* UI
 * iOS (SwiftUI)
 * Chat-style interface
 * Location-aware (GPS / postal code)
@@ -43,7 +43,7 @@ Instead of searching through PDFs, French-only pages, or outdated forums, users 
 ## 🏗️ System Architecture
 
 ```
-iOS App
+UI/iOS App
   ↓
 FastAPI Backend
   ├── Intent Classifier (LLM)
@@ -51,7 +51,7 @@ FastAPI Backend
   ├── RAG Engine (311, bylaws)
   ├── Response Generator (LLM)
   ↓
-Formatted Answer → iOS
+Formatted Answer → UI/iOS
 ```
 
 ---
